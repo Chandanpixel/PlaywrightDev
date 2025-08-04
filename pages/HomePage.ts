@@ -47,6 +47,21 @@ async addToCart(itemId: string): Promise<void> {
         const finishButton = this.page.locator('#finish');
         await finishButton.click();
     }
+
+    async verifyCheckoutComplete(): Promise<void> {
+        // Verify that the checkout is complete by checking for the success message
+        const successMessage = this.page.locator('.complete-header');
+        const { expect } = await import('@playwright/test');
+        await expect(successMessage).toHaveText('THANK YOU FOR YOUR ORDER');
+    }
+    async verifyCartItemCount(expectedCount: number): Promise<void> {
+        // Verify the number of items in the cart
+        const cartItemCount = this.page.locator('.shopping_cart_badge');
+        const { expect } = await import('@playwright/test');
+        await expect(cartItemCount).toHaveText(expectedCount.toString());
+    }   
+
+    
     async closePage(): Promise<void> {
         // Close the current page
         await this.page.close();
