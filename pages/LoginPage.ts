@@ -25,3 +25,6 @@
         }
     }
  
+
+    //updated to use Playwright's Locator API for better element handling
+    //This class encapsulates the login functionality for the SauceDemo application 
