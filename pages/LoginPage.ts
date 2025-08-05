@@ -28,3 +28,7 @@
 
     //updated to use Playwright's Locator API for better element handling
     //This class encapsulates the login functionality for the SauceDemo application 
+
+
+    //It includes methods to open the application and perform login actions
+    //The constructor initializes the page and locators for username, password, and login button    
