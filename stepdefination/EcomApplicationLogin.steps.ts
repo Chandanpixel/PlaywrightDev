@@ -52,3 +52,7 @@ Then('I should see the message {string}', async function (message: string) {
   await expect(page.locator('.complete-header')).toHaveText(message);
   await homePage.closePage();
 });
+
+
+// Additional step definitions for error handling and edge cases can be added here as needed. 
+
