@@ -76,11 +76,10 @@ export default defineConfig({
     // {
     //   name: 'Microsoft Edge',
     //   use: { ...devices['Desktop Edge'], channel: 'msedge',
-    //     headless: false  // Set headless to true for CI environments
-        
+    //     headless: false  // Set headless to true for CI environments 
     //    },
     // },
-    // {
+    // { 
     //   name: 'Google Chrome',
     //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
     // },

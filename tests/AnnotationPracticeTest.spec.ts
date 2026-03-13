@@ -3,8 +3,8 @@ import { test, expect } from '@playwright/test';
 test.describe('Console Tests Group', () => {
     test('console test 1', async ({ page }) => {
         console.log('Test 1: Hello from Playwright!');
-    });
-
+    }); 
+    
     test('console test 2', async ({ page }) => {
         console.log('Test 2: This is another console message.');
     });

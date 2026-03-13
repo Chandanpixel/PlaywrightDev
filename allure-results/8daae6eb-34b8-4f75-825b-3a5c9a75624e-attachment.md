@@ -1,0 +1,283 @@
+# Page snapshot
+
+```yaml
+- status
+- banner:
+  - link "Skip navigation":
+    - /url: "#main"
+  - combobox "Currency selector":
+    - option "US Dollar" [selected]
+    - option "Euro"
+  - list:
+    - listitem:
+      - link "Register":
+        - /url: /register?returnUrl=%2F
+    - listitem:
+      - link "Log in":
+        - /url: /login?returnUrl=%2F
+    - listitem:
+      - link "Wishlist (0)":
+        - /url: /wishlist
+    - listitem:
+      - link "Shopping cart (0)":
+        - /url: /cart
+  - text: You have no items in your shopping cart.
+  - link "nopCommerce demo store":
+    - /url: /
+    - img "nopCommerce demo store"
+  - search:
+    - textbox "Search store"
+    - button "Search"
+- navigation:
+  - button "Categories"
+  - menu "Categories":
+    - menuitem "Computers":
+      - button "Computers"
+      - menu "Computers":
+        - menuitem "Desktops":
+          - button "Desktops"
+        - menuitem "Notebooks":
+          - button "Notebooks"
+        - menuitem "Software":
+          - button "Software"
+    - menuitem "Electronics":
+      - button "Electronics"
+      - menu "Electronics":
+        - menuitem "Camera & photo":
+          - button "Camera & photo"
+        - menuitem "Cell phones":
+          - button "Cell phones"
+        - menuitem "Others":
+          - button "Others"
+    - menuitem "Apparel":
+      - button "Apparel"
+      - menu "Apparel":
+        - menuitem "Shoes":
+          - button "Shoes"
+        - menuitem "Clothing":
+          - button "Clothing"
+        - menuitem "Accessories":
+          - button "Accessories"
+    - menuitem "Digital downloads":
+      - button "Digital downloads"
+    - menuitem "Books":
+      - button "Books"
+    - menuitem "Jewelry":
+      - button "Jewelry"
+    - menuitem "Gift Cards":
+      - button "Gift Cards"
+- main:
+  - link:
+    - /url: https://demo.nopcommerce.com/apple-iphone-16-128gb
+    - img
+  - link:
+    - /url: https://demo.nopcommerce.com/samsung-galaxy-s24-256gb
+    - img
+  - heading "Welcome to our store" [level=2]
+  - paragraph: Online shopping is the process consumers go through to purchase products or services over the Internet. You can edit this in the admin site.
+  - paragraph:
+    - text: If you have questions, see the
+    - link "Documentation":
+      - /url: http://docs.nopcommerce.com/
+    - text: ", or post in the"
+    - link "Forums":
+      - /url: https://www.nopcommerce.com/boards/
+    - text: at
+    - link "nopCommerce.com":
+      - /url: https://www.nopcommerce.com
+  - article:
+    - heading "Electronics" [level=2]:
+      - link "Electronics":
+        - /url: /electronics
+    - link "Picture for category Electronics":
+      - /url: /electronics
+      - img "Picture for category Electronics"
+  - article:
+    - heading "Apparel" [level=2]:
+      - link "Apparel":
+        - /url: /apparel
+    - link "Picture for category Apparel":
+      - /url: /apparel
+      - img "Picture for category Apparel"
+  - article:
+    - heading "Digital downloads" [level=2]:
+      - link "Digital downloads":
+        - /url: /digital-downloads
+    - link "Picture for category Digital downloads":
+      - /url: /digital-downloads
+      - img "Picture for category Digital downloads"
+  - heading "Featured products" [level=2]
+  - article:
+    - link "Picture of Build your own computer":
+      - /url: /build-your-own-computer
+      - img "Picture of Build your own computer"
+    - heading "Build your own computer" [level=2]:
+      - link "Build your own computer":
+        - /url: /build-your-own-computer
+    - text: Build it $1,200.00
+    - button "Add to cart"
+    - button "Add to compare list"
+    - button "Add to wishlist"
+  - article:
+    - link "Picture of Apple MacBook Pro":
+      - /url: /apple-macbook-pro
+      - img "Picture of Apple MacBook Pro"
+    - heading "Apple MacBook Pro" [level=2]:
+      - link "Apple MacBook Pro":
+        - /url: /apple-macbook-pro
+    - text: A groundbreaking Retina display. A new force-sensing trackpad. All-flash architecture. Powerful dual-core and quad-core Intel processors. Together, these features take the notebook to a new level of performance. And they will do the same for you in everything you create. $1,800.00
+    - button "Add to cart"
+    - button "Add to compare list"
+    - button "Add to wishlist"
+  - article:
+    - link "Picture of HTC smartphone":
+      - /url: /htc-smartphone
+      - img "Picture of HTC smartphone"
+    - heading "HTC smartphone" [level=2]:
+      - link "HTC smartphone":
+        - /url: /htc-smartphone
+    - text: HTC - One (M8) 4G LTE Cell Phone with 32GB Memory - Gunmetal (Sprint) $245.00
+    - button "Add to cart"
+    - button "Add to compare list"
+    - button "Add to wishlist"
+  - article:
+    - link "Picture of $25 Virtual Gift Card":
+      - /url: /25-virtual-gift-card
+      - img "Picture of $25 Virtual Gift Card"
+    - heading "$25 Virtual Gift Card" [level=2]:
+      - link "$25 Virtual Gift Card":
+        - /url: /25-virtual-gift-card
+    - text: $25 Gift Card. Gift Cards must be redeemed through our site Web site toward the purchase of eligible products. $25.00
+    - button "Add to cart"
+    - button "Add to compare list"
+    - button "Add to wishlist"
+  - heading "News" [level=2]
+  - article:
+    - link "About nopCommerce":
+      - /url: /about-nopcommerce
+      - heading "About nopCommerce" [level=3]
+    - time: "-Tuesday, November 4, 2025"
+    - text: It's stable and highly usable. From downloads to documentation, www.nopCommerce.com offers a comprehensive base of information, resources, and support to the nopCommerce community.
+    - link "details":
+      - /url: /about-nopcommerce
+  - article:
+    - link "nopCommerce new release!":
+      - /url: /nopcommerce-new-release
+      - heading "nopCommerce new release!" [level=3]
+    - time: "-Tuesday, November 4, 2025"
+    - text: nopCommerce includes everything you need to begin your e-commerce online store. We have thought of everything and it's all included! nopCommerce is a fully customizable shopping cart
+    - link "details":
+      - /url: /nopcommerce-new-release
+  - article:
+    - link "New online store is open!":
+      - /url: /new-online-store-is-open
+      - heading "New online store is open!" [level=3]
+    - time: "-Tuesday, November 4, 2025"
+    - text: The new nopCommerce store is open now! We are very excited to offer our new range of products. We will be constantly adding to our range so please register on our site.
+    - link "details":
+      - /url: /new-online-store-is-open
+  - link "View News Archive":
+    - /url: /news
+  - heading "Community poll" [level=2]
+  - strong: Do you like nopCommerce?
+  - list:
+    - listitem:
+      - radio "Excellent"
+      - text: Excellent
+    - listitem:
+      - radio "Good"
+      - text: Good
+    - listitem:
+      - radio "Poor"
+      - text: Poor
+    - listitem:
+      - radio "Very bad"
+      - text: Very bad
+  - button "Vote"
+- contentinfo:
+  - navigation:
+    - heading "Information" [level=2]
+    - menu "Information":
+      - menuitem "Sitemap":
+        - link "Sitemap":
+          - /url: /sitemap
+      - menuitem "Shipping & returns":
+        - link "Shipping & returns":
+          - /url: /shipping-returns
+      - menuitem "Privacy notice":
+        - link "Privacy notice":
+          - /url: /privacy-notice
+      - menuitem "Conditions of Use":
+        - link "Conditions of Use":
+          - /url: /conditions-of-use
+      - menuitem "About us":
+        - link "About us":
+          - /url: /about-us
+      - menuitem "Contact us":
+        - link "Contact us":
+          - /url: /contactus
+    - heading "Customer service" [level=2]
+    - menu "Customer service":
+      - menuitem "Search":
+        - link "Search":
+          - /url: /search
+      - menuitem "News":
+        - link "News":
+          - /url: /news
+      - menuitem "Blog":
+        - link "Blog":
+          - /url: /blog
+      - menuitem "Recently viewed products":
+        - link "Recently viewed products":
+          - /url: /recentlyviewedproducts
+      - menuitem "Compare products list":
+        - link "Compare products list":
+          - /url: /compareproducts
+      - menuitem "New products":
+        - link "New products":
+          - /url: /newproducts
+    - heading "My account" [level=2]
+    - menu "My account":
+      - menuitem "My account":
+        - link "My account":
+          - /url: /customer/info
+      - menuitem "Orders":
+        - link "Orders":
+          - /url: /order/history
+      - menuitem "Addresses":
+        - link "Addresses":
+          - /url: /customer/addresses
+      - menuitem "Shopping cart":
+        - link "Shopping cart":
+          - /url: /cart
+      - menuitem "Wishlist":
+        - link "Wishlist":
+          - /url: /wishlist
+      - menuitem "Apply for vendor account":
+        - link "Apply for vendor account":
+          - /url: /vendor/apply
+  - heading "Follow us" [level=2]
+  - list:
+    - listitem:
+      - link "Facebook":
+        - /url: https://www.facebook.com/nopCommerce
+    - listitem:
+      - link "Twitter":
+        - /url: https://twitter.com/nopCommerce
+    - listitem:
+      - link "RSS":
+        - /url: /news/rss/1
+    - listitem:
+      - link "YouTube":
+        - /url: https://www.youtube.com/user/nopCommerce
+    - listitem:
+      - link "Instagram":
+        - /url: https://www.instagram.com/nopcommerce_official
+  - form:
+    - heading "Newsletter" [level=2]
+    - textbox "Sign up for our newsletter"
+    - button "Subscribe"
+  - text: Copyright © 2025 nopCommerce demo store. All rights reserved. Powered by
+  - link "nopCommerce":
+    - /url: https://www.nopcommerce.com/
+```

@@ -1,6 +1,9 @@
     import { Page,Locator} from "@playwright/test";
 
     export class LoginPage {
+        navigate() {
+            throw new Error('Method not implemented.');
+        }
         readonly page: Page;
         readonly userNameInput: Locator;
         readonly passwordInput: Locator;

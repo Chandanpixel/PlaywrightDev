@@ -1,0 +1,2 @@
+SauceDemo: Valid user login successful
+SauceDemo: Product purchased and order completed

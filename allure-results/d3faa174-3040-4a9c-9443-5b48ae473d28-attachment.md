@@ -1,0 +1,152 @@
+# Page snapshot
+
+```yaml
+- status
+- banner:
+  - link "Skip navigation":
+    - /url: "#main"
+  - combobox "Currency selector":
+    - option "US Dollar" [selected]
+    - option "Euro"
+  - list:
+    - listitem:
+      - link "Register":
+        - /url: /register?returnUrl=%2F
+    - listitem:
+      - link "Log in":
+        - /url: /login?returnUrl=%2F
+    - listitem:
+      - link "Wishlist (0)":
+        - /url: /wishlist
+    - listitem:
+      - link "Shopping cart (0)":
+        - /url: /cart
+  - link "nopCommerce demo store":
+    - /url: /
+    - img "nopCommerce demo store"
+  - search:
+    - textbox "Search store"
+    - button "Search"
+- navigation:
+  - menu "Categories":
+    - menuitem "Computers":
+      - button "Computers"
+    - menuitem "Electronics":
+      - button "Electronics"
+    - menuitem "Apparel":
+      - button "Apparel"
+    - menuitem "Digital downloads":
+      - button "Digital downloads"
+    - menuitem "Books":
+      - button "Books"
+    - menuitem "Jewelry":
+      - button "Jewelry"
+    - menuitem "Gift Cards":
+      - button "Gift Cards"
+- main:
+  - heading "Welcome, Please Sign In!" [level=1]
+  - heading "New Customer" [level=2]
+  - text: By creating an account on our website, you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made.
+  - button "Register"
+  - text: Login was unsuccessful. Please correct the errors and try again.
+  - list:
+    - listitem: No customer account found
+  - heading "Returning Customer" [level=2]
+  - text: "Email:"
+  - textbox "Email:"
+  - text: "Password:"
+  - textbox "Password:"
+  - checkbox "Remember me?"
+  - text: Remember me?
+  - link "Forgot password?":
+    - /url: /passwordrecovery
+  - button "Log in"
+  - heading "About login / registration" [level=2]
+  - paragraph: Put your login / registration information here. You can edit this in the admin site.
+- contentinfo:
+  - navigation:
+    - heading "Information" [level=2]
+    - menu "Information":
+      - menuitem "Sitemap":
+        - link "Sitemap":
+          - /url: /sitemap
+      - menuitem "Shipping & returns":
+        - link "Shipping & returns":
+          - /url: /shipping-returns
+      - menuitem "Privacy notice":
+        - link "Privacy notice":
+          - /url: /privacy-notice
+      - menuitem "Conditions of Use":
+        - link "Conditions of Use":
+          - /url: /conditions-of-use
+      - menuitem "About us":
+        - link "About us":
+          - /url: /about-us
+      - menuitem "Contact us":
+        - link "Contact us":
+          - /url: /contactus
+    - heading "Customer service" [level=2]
+    - menu "Customer service":
+      - menuitem "Search":
+        - link "Search":
+          - /url: /search
+      - menuitem "News":
+        - link "News":
+          - /url: /news
+      - menuitem "Blog":
+        - link "Blog":
+          - /url: /blog
+      - menuitem "Recently viewed products":
+        - link "Recently viewed products":
+          - /url: /recentlyviewedproducts
+      - menuitem "Compare products list":
+        - link "Compare products list":
+          - /url: /compareproducts
+      - menuitem "New products":
+        - link "New products":
+          - /url: /newproducts
+    - heading "My account" [level=2]
+    - menu "My account":
+      - menuitem "My account":
+        - link "My account":
+          - /url: /customer/info
+      - menuitem "Orders":
+        - link "Orders":
+          - /url: /order/history
+      - menuitem "Addresses":
+        - link "Addresses":
+          - /url: /customer/addresses
+      - menuitem "Shopping cart":
+        - link "Shopping cart":
+          - /url: /cart
+      - menuitem "Wishlist":
+        - link "Wishlist":
+          - /url: /wishlist
+      - menuitem "Apply for vendor account":
+        - link "Apply for vendor account":
+          - /url: /vendor/apply
+  - heading "Follow us" [level=2]
+  - list:
+    - listitem:
+      - link "Facebook":
+        - /url: https://www.facebook.com/nopCommerce
+    - listitem:
+      - link "Twitter":
+        - /url: https://twitter.com/nopCommerce
+    - listitem:
+      - link "RSS":
+        - /url: /news/rss/1
+    - listitem:
+      - link "YouTube":
+        - /url: https://www.youtube.com/user/nopCommerce
+    - listitem:
+      - link "Instagram":
+        - /url: https://www.instagram.com/nopcommerce_official
+  - form:
+    - heading "Newsletter" [level=2]
+    - textbox "Sign up for our newsletter"
+    - button "Subscribe"
+  - text: Copyright © 2025 nopCommerce demo store. All rights reserved. Powered by
+  - link "nopCommerce":
+    - /url: https://www.nopcommerce.com/
+```

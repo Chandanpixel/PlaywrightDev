@@ -45,4 +45,51 @@ test.describe('Home Page Tests', () => {
         // Verify the page is closed by checking if the page is no longer available
         expect(homePage.page.isClosed()).toBeTruthy();
     });
+
+    test.afterEach(async () => {
+        if (!homePage.page.isClosed()) {
+            await homePage.closePage();
+        }           
+    });
+    test.afterAll(async () => {
+        if (!homePage.page.isClosed()) {
+            await homePage.closePage();
+        }           
+    });
+    test.beforeAll(async ({ browser }) => {
+        const context = await browser.newContext();
+        const page = await context.newPage();
+        homePage = new HomePage(page);
+        await homePage.openApplication();
+    });
+    test.afterAll(async () => {
+        if (!homePage.page.isClosed()) {
+            await homePage.closePage();
+        }
+        await homePage.page.context().close();
+    });
+    test.beforeAll(async ({ browser }) => {
+        const context = await browser.newContext();
+        const page = await context.newPage();
+        homePage = new HomePage(page);
+        await homePage.openApplication();
+    });
+    test.afterAll(async () => {
+        if (!homePage.page.isClosed()) {
+            await homePage.closePage();
+        }       
+        await homePage.page.context().close();
+    });
+    test.beforeAll(async ({ browser }) => {
+        const context = await browser.newContext();
+        const page = await context.newPage();
+        homePage = new HomePage(page);
+        await homePage.openApplication();
+    });
+    test.afterAll(async () => {
+        if (!homePage.page.isClosed()) {
+            await homePage.closePage();
+        }       
+        await homePage.page.context().close();
+    });
 });
