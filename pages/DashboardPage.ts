@@ -7,10 +7,12 @@ constructor(private page: Page) {}
 async gotoDashboard() {
     await this.page.goto('https://adminlte.io/themes/v3/index3.html');
 }
+
 async verifyDashboardHeader() {
     const header = this.page.locator('h1', { hasText: 'Admin Dashboard' });
     await expect(header).toBeVisible();
 }
+
 async verifyUserStatistics() {
     await expect(this.page.locator('.user-statistics')).toBeVisible();
 }

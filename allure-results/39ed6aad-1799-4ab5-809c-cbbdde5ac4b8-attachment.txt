@@ -1,0 +1,16 @@
+Search results loaded.
+Currently on the page 1
+Clicking on next button
+Currently on the page 2
+Clicking on next button
+Currently on the page 3
+Clicking on next button
+Currently on the page 4
+Clicking on next button
+Currently on the page 5
+Clicking on next button
+Currently on the page 6
+Clicking on next button
+Currently on the page 7
+Next button is not visible or does not exist
+Pagination Ended

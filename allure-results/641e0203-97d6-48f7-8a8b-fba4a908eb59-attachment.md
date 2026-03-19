@@ -1,0 +1,351 @@
+# Page snapshot
+
+```yaml
+- region "Skip to main content":
+  - link "Skip to main content":
+    - /url: "#__docusaurus_skipToContent_fallback"
+- navigation "Main":
+  - link "Playwright logo Playwright":
+    - /url: /
+    - img "Playwright logo"
+    - text: Playwright
+  - link "Docs":
+    - /url: /docs/intro
+  - link "API":
+    - /url: /docs/api/class-playwright
+  - button "Node.js"
+  - link "Community":
+    - /url: /community/welcome
+  - link "GitHub repository":
+    - /url: https://github.com/microsoft/playwright
+  - link "Discord server":
+    - /url: https://aka.ms/playwright/discord
+  - button "Switch between dark and light mode (currently system mode)"
+  - button "Search (Ctrl+K)":
+    - text: Search
+    - img
+    - text: K
+- complementary:
+  - navigation "Docs sidebar":
+    - list:
+      - listitem:
+        - button "Getting Started" [expanded]
+        - list:
+          - listitem:
+            - link "Installation":
+              - /url: /docs/intro
+          - listitem:
+            - link "Writing tests":
+              - /url: /docs/writing-tests
+          - listitem:
+            - link "Generating tests":
+              - /url: /docs/codegen-intro
+          - listitem:
+            - link "Running and debugging tests":
+              - /url: /docs/running-tests
+          - listitem:
+            - link "Trace viewer":
+              - /url: /docs/trace-viewer-intro
+          - listitem:
+            - link "Setting up CI":
+              - /url: /docs/ci-intro
+      - listitem:
+        - link "Getting started - VS Code":
+          - /url: /docs/getting-started-vscode
+      - listitem:
+        - link "Release notes":
+          - /url: /docs/release-notes
+      - listitem:
+        - link "Canary releases":
+          - /url: /docs/canary-releases
+      - listitem:
+        - button "Playwright Test" [expanded]
+        - list:
+          - listitem:
+            - link "Agents":
+              - /url: /docs/test-agents
+          - listitem:
+            - link "Annotations":
+              - /url: /docs/test-annotations
+          - listitem:
+            - link "Command line":
+              - /url: /docs/test-cli
+          - listitem:
+            - link "Configuration":
+              - /url: /docs/test-configuration
+          - listitem:
+            - link "Configuration (use)":
+              - /url: /docs/test-use-options
+          - listitem:
+            - link "Emulation":
+              - /url: /docs/emulation
+          - listitem:
+            - link "Fixtures":
+              - /url: /docs/test-fixtures
+          - listitem:
+            - link "Global setup and teardown":
+              - /url: /docs/test-global-setup-teardown
+          - listitem:
+            - link "Parallelism":
+              - /url: /docs/test-parallel
+          - listitem:
+            - link "Parameterize tests":
+              - /url: /docs/test-parameterize
+          - listitem:
+            - link "Projects":
+              - /url: /docs/test-projects
+          - listitem:
+            - link "Reporters":
+              - /url: /docs/test-reporters
+          - listitem:
+            - link "Retries":
+              - /url: /docs/test-retries
+          - listitem:
+            - link "Sharding":
+              - /url: /docs/test-sharding
+          - listitem:
+            - link "Timeouts":
+              - /url: /docs/test-timeouts
+          - listitem:
+            - link "TypeScript":
+              - /url: /docs/test-typescript
+          - listitem:
+            - link "UI Mode":
+              - /url: /docs/test-ui-mode
+          - listitem:
+            - link "Web server":
+              - /url: /docs/test-webserver
+      - listitem:
+        - button "Guides" [expanded]
+        - list:
+          - listitem:
+            - link "Library":
+              - /url: /docs/library
+          - listitem:
+            - link "Accessibility testing":
+              - /url: /docs/accessibility-testing
+          - listitem:
+            - link "Actions":
+              - /url: /docs/input
+          - listitem:
+            - link "Assertions":
+              - /url: /docs/test-assertions
+          - listitem:
+            - link "API testing":
+              - /url: /docs/api-testing
+          - listitem:
+            - link "Authentication":
+              - /url: /docs/auth
+          - listitem:
+            - link "Auto-waiting":
+              - /url: /docs/actionability
+          - listitem:
+            - link "Best Practices":
+              - /url: /docs/best-practices
+          - listitem:
+            - link "Browsers":
+              - /url: /docs/browsers
+          - listitem:
+            - link "Chrome extensions":
+              - /url: /docs/chrome-extensions
+          - listitem:
+            - link "Clock":
+              - /url: /docs/clock
+          - listitem:
+            - link "Components (experimental)":
+              - /url: /docs/test-components
+          - listitem:
+            - link "Debugging Tests":
+              - /url: /docs/debug
+          - listitem:
+            - link "Dialogs":
+              - /url: /docs/dialogs
+          - listitem:
+            - link "Downloads":
+              - /url: /docs/downloads
+          - listitem:
+            - link "Evaluating JavaScript":
+              - /url: /docs/evaluating
+          - listitem:
+            - link "Events":
+              - /url: /docs/events
+          - listitem:
+            - link "Extensibility":
+              - /url: /docs/extensibility
+          - listitem:
+            - link "Frames":
+              - /url: /docs/frames
+          - listitem:
+            - link "Handles":
+              - /url: /docs/handles
+          - listitem:
+            - link "Isolation":
+              - /url: /docs/browser-contexts
+          - listitem:
+            - link "Locators":
+              - /url: /docs/locators
+          - listitem:
+            - link "Mock APIs":
+              - /url: /docs/mock
+          - listitem:
+            - link "Mock browser APIs":
+              - /url: /docs/mock-browser-apis
+          - listitem:
+            - link "Navigations":
+              - /url: /docs/navigations
+          - listitem:
+            - link "Network":
+              - /url: /docs/network
+          - listitem:
+            - link "Other locators":
+              - /url: /docs/other-locators
+          - listitem:
+            - link "Pages":
+              - /url: /docs/pages
+          - listitem:
+            - link "Page object models":
+              - /url: /docs/pom
+          - listitem:
+            - link "Screenshots":
+              - /url: /docs/screenshots
+          - listitem:
+            - link "Service Workers":
+              - /url: /docs/service-workers
+          - listitem:
+            - link "Snapshot testing":
+              - /url: /docs/aria-snapshots
+          - listitem:
+            - link "Test generator":
+              - /url: /docs/codegen
+          - listitem:
+            - link "Touch events (legacy)":
+              - /url: /docs/touch-events
+          - listitem:
+            - link "Trace viewer":
+              - /url: /docs/trace-viewer
+          - listitem:
+            - link "Videos":
+              - /url: /docs/videos
+          - listitem:
+            - link "Visual comparisons":
+              - /url: /docs/test-snapshots
+          - listitem:
+            - link "WebView2":
+              - /url: /docs/webview2
+      - listitem:
+        - button "Migration"
+      - listitem:
+        - button "Integrations"
+      - listitem:
+        - link "Supported languages":
+          - /url: /docs/languages
+- main:
+  - article:
+    - navigation "Breadcrumbs":
+      - list:
+        - listitem:
+          - link "Home page":
+            - /url: /
+            - img
+        - listitem: Guides
+        - listitem: Screenshots
+    - heading "Screenshots" [level=1]
+    - heading "IntroductionDirect link to Introduction" [level=2]:
+      - text: Introduction
+      - link "Direct link to Introduction":
+        - /url: "#introduction"
+        - text: "#"
+    - paragraph: "Here is a quick way to capture a screenshot and save it into a file:"
+    - code: "await page.screenshot({ path: 'screenshot.png' });"
+    - button "Copy code to clipboard"
+    - paragraph:
+      - link "Screenshots API":
+        - /url: /docs/screenshots/api/class-page#page-screenshot
+      - text: accepts many parameters for image format, clip area, quality, etc. Make sure to check them out.
+    - heading "Full page screenshotsDirect link to Full page screenshots" [level=2]:
+      - text: Full page screenshots
+      - link "Direct link to Full page screenshots":
+        - /url: "#full-page-screenshots"
+        - text: "#"
+    - paragraph: Full page screenshot is a screenshot of a full scrollable page, as if you had a very tall screen and the page could fit it entirely.
+    - code: "await page.screenshot({ path: 'screenshot.png', fullPage: true });"
+    - button "Copy code to clipboard"
+    - heading "Capture into bufferDirect link to Capture into buffer" [level=2]:
+      - text: Capture into buffer
+      - link "Direct link to Capture into buffer":
+        - /url: "#capture-into-buffer"
+        - text: "#"
+    - paragraph: Rather than writing into a file, you can get a buffer with the image and post-process it or pass it to a third party pixel diff facility.
+    - code: const buffer = await page.screenshot(); console.log(buffer.toString('base64'));
+    - button "Copy code to clipboard"
+    - heading "Element screenshotDirect link to Element screenshot" [level=2]:
+      - text: Element screenshot
+      - link "Direct link to Element screenshot":
+        - /url: "#element-screenshot"
+        - text: "#"
+    - paragraph: Sometimes it is useful to take a screenshot of a single element.
+    - code: "await page.locator('.header').screenshot({ path: 'screenshot.png' });"
+    - button "Copy code to clipboard"
+  - navigation "Docs pages":
+    - link "Previous « Page object models":
+      - /url: /docs/pom
+    - link "Next Service Workers »":
+      - /url: /docs/service-workers
+  - list:
+    - listitem:
+      - link "Introduction":
+        - /url: "#introduction"
+    - listitem:
+      - link "Full page screenshots":
+        - /url: "#full-page-screenshots"
+    - listitem:
+      - link "Capture into buffer":
+        - /url: "#capture-into-buffer"
+    - listitem:
+      - link "Element screenshot":
+        - /url: "#element-screenshot"
+- contentinfo:
+  - text: Learn
+  - list:
+    - listitem:
+      - link "Getting started":
+        - /url: /docs/intro
+    - listitem:
+      - link "Playwright Training":
+        - /url: https://learn.microsoft.com/en-us/training/modules/build-with-playwright/
+    - listitem:
+      - link "Learn Videos":
+        - /url: /community/learn-videos
+    - listitem:
+      - link "Feature Videos":
+        - /url: /community/feature-videos
+  - text: Community
+  - list:
+    - listitem:
+      - link "Stack Overflow":
+        - /url: https://stackoverflow.com/questions/tagged/playwright
+    - listitem:
+      - link "Discord":
+        - /url: https://aka.ms/playwright/discord
+    - listitem:
+      - link "Twitter":
+        - /url: https://twitter.com/playwrightweb
+    - listitem:
+      - link "LinkedIn":
+        - /url: https://www.linkedin.com/company/playwrightweb
+  - text: More
+  - list:
+    - listitem:
+      - link "GitHub":
+        - /url: https://github.com/microsoft/playwright
+    - listitem:
+      - link "YouTube":
+        - /url: https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg
+    - listitem:
+      - link "Blog":
+        - /url: https://dev.to/playwright
+    - listitem:
+      - link "Ambassadors":
+        - /url: /community/ambassadors
+  - text: Copyright © 2026 Microsoft
+```

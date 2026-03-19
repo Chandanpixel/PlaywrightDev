@@ -1,0 +1,1 @@
+Only password shows username required error

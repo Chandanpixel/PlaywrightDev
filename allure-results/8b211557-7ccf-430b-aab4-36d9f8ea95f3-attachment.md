@@ -1,0 +1,411 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Playwright logo Playwright" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Playwright logo" [ref=e9]
+          - generic [ref=e10]: Playwright
+        - link "Docs" [ref=e11] [cursor=pointer]:
+          - /url: /docs/intro
+        - link "API" [ref=e12] [cursor=pointer]:
+          - /url: /docs/api/class-playwright
+        - button "Node.js" [ref=e14] [cursor=pointer]
+        - link "Community" [ref=e15] [cursor=pointer]:
+          - /url: /community/welcome
+      - generic [ref=e16]:
+        - link "GitHub repository" [ref=e17] [cursor=pointer]:
+          - /url: https://github.com/microsoft/playwright
+        - link "Discord server" [ref=e18] [cursor=pointer]:
+          - /url: https://aka.ms/playwright/discord
+        - button "Switch between dark and light mode (currently system mode)" [ref=e20] [cursor=pointer]:
+          - img [ref=e21]
+        - button "Search (Ctrl+K)" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]:
+            - img [ref=e26]
+            - generic [ref=e28]: Search
+          - generic [ref=e29]:
+            - img [ref=e31]
+            - generic [ref=e33]: K
+  - generic [ref=e36]:
+    - complementary [ref=e37]:
+      - navigation "Docs sidebar" [ref=e40]:
+        - list [ref=e41]:
+          - listitem [ref=e42]:
+            - button "Getting Started" [expanded] [ref=e44] [cursor=pointer]
+            - list [ref=e45]:
+              - listitem [ref=e46]:
+                - link "Installation" [ref=e47] [cursor=pointer]:
+                  - /url: /docs/intro
+              - listitem [ref=e48]:
+                - link "Writing tests" [ref=e49] [cursor=pointer]:
+                  - /url: /docs/writing-tests
+              - listitem [ref=e50]:
+                - link "Generating tests" [ref=e51] [cursor=pointer]:
+                  - /url: /docs/codegen-intro
+              - listitem [ref=e52]:
+                - link "Running and debugging tests" [ref=e53] [cursor=pointer]:
+                  - /url: /docs/running-tests
+              - listitem [ref=e54]:
+                - link "Trace viewer" [ref=e55] [cursor=pointer]:
+                  - /url: /docs/trace-viewer-intro
+              - listitem [ref=e56]:
+                - link "Setting up CI" [ref=e57] [cursor=pointer]:
+                  - /url: /docs/ci-intro
+          - listitem [ref=e58]:
+            - link "Getting started - VS Code" [ref=e59] [cursor=pointer]:
+              - /url: /docs/getting-started-vscode
+          - listitem [ref=e60]:
+            - link "Release notes" [ref=e61] [cursor=pointer]:
+              - /url: /docs/release-notes
+          - listitem [ref=e62]:
+            - link "Canary releases" [ref=e63] [cursor=pointer]:
+              - /url: /docs/canary-releases
+          - listitem [ref=e64]:
+            - button "Playwright Test" [expanded] [ref=e66] [cursor=pointer]
+            - list [ref=e67]:
+              - listitem [ref=e68]:
+                - link "Agents" [ref=e69] [cursor=pointer]:
+                  - /url: /docs/test-agents
+              - listitem [ref=e70]:
+                - link "Annotations" [ref=e71] [cursor=pointer]:
+                  - /url: /docs/test-annotations
+              - listitem [ref=e72]:
+                - link "Command line" [ref=e73] [cursor=pointer]:
+                  - /url: /docs/test-cli
+              - listitem [ref=e74]:
+                - link "Configuration" [ref=e75] [cursor=pointer]:
+                  - /url: /docs/test-configuration
+              - listitem [ref=e76]:
+                - link "Configuration (use)" [ref=e77] [cursor=pointer]:
+                  - /url: /docs/test-use-options
+              - listitem [ref=e78]:
+                - link "Emulation" [ref=e79] [cursor=pointer]:
+                  - /url: /docs/emulation
+              - listitem [ref=e80]:
+                - link "Fixtures" [ref=e81] [cursor=pointer]:
+                  - /url: /docs/test-fixtures
+              - listitem [ref=e82]:
+                - link "Global setup and teardown" [ref=e83] [cursor=pointer]:
+                  - /url: /docs/test-global-setup-teardown
+              - listitem [ref=e84]:
+                - link "Parallelism" [ref=e85] [cursor=pointer]:
+                  - /url: /docs/test-parallel
+              - listitem [ref=e86]:
+                - link "Parameterize tests" [ref=e87] [cursor=pointer]:
+                  - /url: /docs/test-parameterize
+              - listitem [ref=e88]:
+                - link "Projects" [ref=e89] [cursor=pointer]:
+                  - /url: /docs/test-projects
+              - listitem [ref=e90]:
+                - link "Reporters" [ref=e91] [cursor=pointer]:
+                  - /url: /docs/test-reporters
+              - listitem [ref=e92]:
+                - link "Retries" [ref=e93] [cursor=pointer]:
+                  - /url: /docs/test-retries
+              - listitem [ref=e94]:
+                - link "Sharding" [ref=e95] [cursor=pointer]:
+                  - /url: /docs/test-sharding
+              - listitem [ref=e96]:
+                - link "Timeouts" [ref=e97] [cursor=pointer]:
+                  - /url: /docs/test-timeouts
+              - listitem [ref=e98]:
+                - link "TypeScript" [ref=e99] [cursor=pointer]:
+                  - /url: /docs/test-typescript
+              - listitem [ref=e100]:
+                - link "UI Mode" [ref=e101] [cursor=pointer]:
+                  - /url: /docs/test-ui-mode
+              - listitem [ref=e102]:
+                - link "Web server" [ref=e103] [cursor=pointer]:
+                  - /url: /docs/test-webserver
+          - listitem [ref=e104]:
+            - button "Guides" [expanded] [ref=e106] [cursor=pointer]
+            - list [ref=e107]:
+              - listitem [ref=e108]:
+                - link "Library" [ref=e109] [cursor=pointer]:
+                  - /url: /docs/library
+              - listitem [ref=e110]:
+                - link "Accessibility testing" [ref=e111] [cursor=pointer]:
+                  - /url: /docs/accessibility-testing
+              - listitem [ref=e112]:
+                - link "Actions" [ref=e113] [cursor=pointer]:
+                  - /url: /docs/input
+              - listitem [ref=e114]:
+                - link "Assertions" [ref=e115] [cursor=pointer]:
+                  - /url: /docs/test-assertions
+              - listitem [ref=e116]:
+                - link "API testing" [ref=e117] [cursor=pointer]:
+                  - /url: /docs/api-testing
+              - listitem [ref=e118]:
+                - link "Authentication" [ref=e119] [cursor=pointer]:
+                  - /url: /docs/auth
+              - listitem [ref=e120]:
+                - link "Auto-waiting" [ref=e121] [cursor=pointer]:
+                  - /url: /docs/actionability
+              - listitem [ref=e122]:
+                - link "Best Practices" [ref=e123] [cursor=pointer]:
+                  - /url: /docs/best-practices
+              - listitem [ref=e124]:
+                - link "Browsers" [ref=e125] [cursor=pointer]:
+                  - /url: /docs/browsers
+              - listitem [ref=e126]:
+                - link "Chrome extensions" [ref=e127] [cursor=pointer]:
+                  - /url: /docs/chrome-extensions
+              - listitem [ref=e128]:
+                - link "Clock" [ref=e129] [cursor=pointer]:
+                  - /url: /docs/clock
+              - listitem [ref=e130]:
+                - link "Components (experimental)" [ref=e131] [cursor=pointer]:
+                  - /url: /docs/test-components
+              - listitem [ref=e132]:
+                - link "Debugging Tests" [ref=e133] [cursor=pointer]:
+                  - /url: /docs/debug
+              - listitem [ref=e134]:
+                - link "Dialogs" [ref=e135] [cursor=pointer]:
+                  - /url: /docs/dialogs
+              - listitem [ref=e136]:
+                - link "Downloads" [ref=e137] [cursor=pointer]:
+                  - /url: /docs/downloads
+              - listitem [ref=e138]:
+                - link "Evaluating JavaScript" [ref=e139] [cursor=pointer]:
+                  - /url: /docs/evaluating
+              - listitem [ref=e140]:
+                - link "Events" [ref=e141] [cursor=pointer]:
+                  - /url: /docs/events
+              - listitem [ref=e142]:
+                - link "Extensibility" [ref=e143] [cursor=pointer]:
+                  - /url: /docs/extensibility
+              - listitem [ref=e144]:
+                - link "Frames" [ref=e145] [cursor=pointer]:
+                  - /url: /docs/frames
+              - listitem [ref=e146]:
+                - link "Handles" [ref=e147] [cursor=pointer]:
+                  - /url: /docs/handles
+              - listitem [ref=e148]:
+                - link "Isolation" [ref=e149] [cursor=pointer]:
+                  - /url: /docs/browser-contexts
+              - listitem [ref=e150]:
+                - link "Locators" [ref=e151] [cursor=pointer]:
+                  - /url: /docs/locators
+              - listitem [ref=e152]:
+                - link "Mock APIs" [ref=e153] [cursor=pointer]:
+                  - /url: /docs/mock
+              - listitem [ref=e154]:
+                - link "Mock browser APIs" [ref=e155] [cursor=pointer]:
+                  - /url: /docs/mock-browser-apis
+              - listitem [ref=e156]:
+                - link "Navigations" [ref=e157] [cursor=pointer]:
+                  - /url: /docs/navigations
+              - listitem [ref=e158]:
+                - link "Network" [ref=e159] [cursor=pointer]:
+                  - /url: /docs/network
+              - listitem [ref=e160]:
+                - link "Other locators" [ref=e161] [cursor=pointer]:
+                  - /url: /docs/other-locators
+              - listitem [ref=e162]:
+                - link "Pages" [ref=e163] [cursor=pointer]:
+                  - /url: /docs/pages
+              - listitem [ref=e164]:
+                - link "Page object models" [ref=e165] [cursor=pointer]:
+                  - /url: /docs/pom
+              - listitem [ref=e166]:
+                - link "Screenshots" [ref=e167] [cursor=pointer]:
+                  - /url: /docs/screenshots
+              - listitem [ref=e168]:
+                - link "Service Workers" [ref=e169] [cursor=pointer]:
+                  - /url: /docs/service-workers
+              - listitem [ref=e170]:
+                - link "Snapshot testing" [ref=e171] [cursor=pointer]:
+                  - /url: /docs/aria-snapshots
+              - listitem [ref=e172]:
+                - link "Test generator" [ref=e173] [cursor=pointer]:
+                  - /url: /docs/codegen
+              - listitem [ref=e174]:
+                - link "Touch events (legacy)" [ref=e175] [cursor=pointer]:
+                  - /url: /docs/touch-events
+              - listitem [ref=e176]:
+                - link "Trace viewer" [ref=e177] [cursor=pointer]:
+                  - /url: /docs/trace-viewer
+              - listitem [ref=e178]:
+                - link "Videos" [ref=e179] [cursor=pointer]:
+                  - /url: /docs/videos
+              - listitem [ref=e180]:
+                - link "Visual comparisons" [ref=e181] [cursor=pointer]:
+                  - /url: /docs/test-snapshots
+              - listitem [ref=e182]:
+                - link "WebView2" [ref=e183] [cursor=pointer]:
+                  - /url: /docs/webview2
+          - listitem [ref=e184]:
+            - button "Migration" [ref=e186] [cursor=pointer]
+          - listitem [ref=e187]:
+            - button "Integrations" [ref=e189] [cursor=pointer]
+          - listitem [ref=e190]:
+            - link "Supported languages" [ref=e191] [cursor=pointer]:
+              - /url: /docs/languages
+    - main [ref=e192]:
+      - generic [ref=e194]:
+        - generic [ref=e196]:
+          - article [ref=e197]:
+            - navigation "Breadcrumbs" [ref=e198]:
+              - list [ref=e199]:
+                - listitem [ref=e200]:
+                  - link "Home page" [ref=e201] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e202]
+                - listitem [ref=e204]:
+                  - generic [ref=e205]: Guides
+                - listitem [ref=e206]:
+                  - generic [ref=e207]: Screenshots
+            - generic [ref=e208]:
+              - heading "Screenshots" [level=1] [ref=e210]
+              - heading "IntroductionDirect link to Introduction" [level=2] [ref=e211]:
+                - text: Introduction
+                - link "Direct link to Introduction" [ref=e212] [cursor=pointer]:
+                  - /url: "#introduction"
+                  - text: "#"
+              - paragraph [ref=e213]: "Here is a quick way to capture a screenshot and save it into a file:"
+              - generic [ref=e215]:
+                - code [ref=e217]:
+                  - generic [ref=e218]: "await page.screenshot({ path: 'screenshot.png' });"
+                - button "Copy code to clipboard" [ref=e220] [cursor=pointer]:
+                  - generic [ref=e221]:
+                    - img [ref=e222]
+                    - img [ref=e224]
+              - paragraph [ref=e226]:
+                - link "Screenshots API" [ref=e227] [cursor=pointer]:
+                  - /url: /docs/screenshots/api/class-page#page-screenshot
+                - text: accepts many parameters for image format, clip area, quality, etc. Make sure to check them out.
+              - heading "Full page screenshotsDirect link to Full page screenshots" [level=2] [ref=e228]:
+                - text: Full page screenshots
+                - link "Direct link to Full page screenshots" [ref=e229] [cursor=pointer]:
+                  - /url: "#full-page-screenshots"
+                  - text: "#"
+              - paragraph [ref=e230]: Full page screenshot is a screenshot of a full scrollable page, as if you had a very tall screen and the page could fit it entirely.
+              - generic [ref=e232]:
+                - code [ref=e234]:
+                  - generic [ref=e235]: "await page.screenshot({ path: 'screenshot.png', fullPage: true });"
+                - button "Copy code to clipboard" [ref=e237] [cursor=pointer]:
+                  - generic [ref=e238]:
+                    - img [ref=e239]
+                    - img [ref=e241]
+              - heading "Capture into bufferDirect link to Capture into buffer" [level=2] [ref=e243]:
+                - text: Capture into buffer
+                - link "Direct link to Capture into buffer" [ref=e244] [cursor=pointer]:
+                  - /url: "#capture-into-buffer"
+                  - text: "#"
+              - paragraph [ref=e245]: Rather than writing into a file, you can get a buffer with the image and post-process it or pass it to a third party pixel diff facility.
+              - generic [ref=e247]:
+                - code [ref=e249]:
+                  - generic [ref=e250]: const buffer = await page.screenshot();
+                  - generic [ref=e251]: console.log(buffer.toString('base64'));
+                - button "Copy code to clipboard" [ref=e253] [cursor=pointer]:
+                  - generic [ref=e254]:
+                    - img [ref=e255]
+                    - img [ref=e257]
+              - heading "Element screenshotDirect link to Element screenshot" [level=2] [ref=e259]:
+                - text: Element screenshot
+                - link "Direct link to Element screenshot" [ref=e260] [cursor=pointer]:
+                  - /url: "#element-screenshot"
+                  - text: "#"
+              - paragraph [ref=e261]: Sometimes it is useful to take a screenshot of a single element.
+              - generic [ref=e263]:
+                - code [ref=e265]:
+                  - generic [ref=e266]: "await page.locator('.header').screenshot({ path: 'screenshot.png' });"
+                - button "Copy code to clipboard" [ref=e268] [cursor=pointer]:
+                  - generic [ref=e269]:
+                    - img [ref=e270]
+                    - img [ref=e272]
+          - navigation "Docs pages" [ref=e274]:
+            - link "Previous « Page object models" [ref=e275] [cursor=pointer]:
+              - /url: /docs/pom
+              - generic [ref=e276]: Previous
+              - generic [ref=e277]: « Page object models
+            - link "Next Service Workers »" [ref=e278] [cursor=pointer]:
+              - /url: /docs/service-workers
+              - generic [ref=e279]: Next
+              - generic [ref=e280]: Service Workers »
+        - list [ref=e283]:
+          - listitem [ref=e284]:
+            - link "Introduction" [ref=e285] [cursor=pointer]:
+              - /url: "#introduction"
+          - listitem [ref=e286]:
+            - link "Full page screenshots" [ref=e287] [cursor=pointer]:
+              - /url: "#full-page-screenshots"
+          - listitem [ref=e288]:
+            - link "Capture into buffer" [ref=e289] [cursor=pointer]:
+              - /url: "#capture-into-buffer"
+          - listitem [ref=e290]:
+            - link "Element screenshot" [ref=e291] [cursor=pointer]:
+              - /url: "#element-screenshot"
+  - contentinfo [ref=e292]:
+    - generic [ref=e293]:
+      - generic [ref=e294]:
+        - generic [ref=e295]:
+          - generic [ref=e296]: Learn
+          - list [ref=e297]:
+            - listitem [ref=e298]:
+              - link "Getting started" [ref=e299] [cursor=pointer]:
+                - /url: /docs/intro
+            - listitem [ref=e300]:
+              - link "Playwright Training" [ref=e301] [cursor=pointer]:
+                - /url: https://learn.microsoft.com/en-us/training/modules/build-with-playwright/
+                - text: Playwright Training
+                - img [ref=e302]
+            - listitem [ref=e304]:
+              - link "Learn Videos" [ref=e305] [cursor=pointer]:
+                - /url: /community/learn-videos
+            - listitem [ref=e306]:
+              - link "Feature Videos" [ref=e307] [cursor=pointer]:
+                - /url: /community/feature-videos
+        - generic [ref=e308]:
+          - generic [ref=e309]: Community
+          - list [ref=e310]:
+            - listitem [ref=e311]:
+              - link "Stack Overflow" [ref=e312] [cursor=pointer]:
+                - /url: https://stackoverflow.com/questions/tagged/playwright
+                - text: Stack Overflow
+                - img [ref=e313]
+            - listitem [ref=e315]:
+              - link "Discord" [ref=e316] [cursor=pointer]:
+                - /url: https://aka.ms/playwright/discord
+                - text: Discord
+                - img [ref=e317]
+            - listitem [ref=e319]:
+              - link "Twitter" [ref=e320] [cursor=pointer]:
+                - /url: https://twitter.com/playwrightweb
+                - text: Twitter
+                - img [ref=e321]
+            - listitem [ref=e323]:
+              - link "LinkedIn" [ref=e324] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/playwrightweb
+                - text: LinkedIn
+                - img [ref=e325]
+        - generic [ref=e327]:
+          - generic [ref=e328]: More
+          - list [ref=e329]:
+            - listitem [ref=e330]:
+              - link "GitHub" [ref=e331] [cursor=pointer]:
+                - /url: https://github.com/microsoft/playwright
+                - text: GitHub
+                - img [ref=e332]
+            - listitem [ref=e334]:
+              - link "YouTube" [ref=e335] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UC46Zj8pDH5tDosqm1gd7WTg
+                - text: YouTube
+                - img [ref=e336]
+            - listitem [ref=e338]:
+              - link "Blog" [ref=e339] [cursor=pointer]:
+                - /url: https://dev.to/playwright
+                - text: Blog
+                - img [ref=e340]
+            - listitem [ref=e342]:
+              - link "Ambassadors" [ref=e343] [cursor=pointer]:
+                - /url: /community/ambassadors
+      - generic [ref=e345]: Copyright © 2026 Microsoft
+```

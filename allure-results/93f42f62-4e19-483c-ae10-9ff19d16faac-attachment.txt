@@ -1,0 +1,8 @@
+Search results loaded.
+Currently on the page 1
+Clicking on next button
+Currently on the page 2
+Clicking on next button
+Currently on the page 3
+Next button is not visible or does not exist
+Pagination Ended
