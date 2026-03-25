@@ -17,6 +17,7 @@ When('I enter username {string} and password {string}', async function (username
 
 When('I click the login button', async function () {
   await page.locator('[data-test="login-button"]').click();
+  
 });
 
 Then('I should be redirected to the inventory page', async function () {

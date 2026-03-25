@@ -2,6 +2,7 @@ Feature: E-commerce Application Login and Purchase
   As a user of the Sauce Demo e-commerce site
   I want to log in, add a product to the cart, and complete a purchase
   So that I can verify the shopping workflow
+  
 
   Scenario: Successful login, add to cart, and checkout
     Given I am on the Sauce Demo login page

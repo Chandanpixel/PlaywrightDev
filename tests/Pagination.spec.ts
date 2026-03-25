@@ -18,7 +18,8 @@ test("Amazon pagination - while loop", async ({ page }) => {
   {
     console.log(`Currently on the page ${pagecount}`)
 
-    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+    await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight)); // Scroll to the bottom of the page to ensure all content is loaded
+
     await page.waitForTimeout(3000);
     const nextButton = await page.locator("a.s-pagination-next");
 
